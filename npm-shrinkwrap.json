@@ -1,0 +1,917 @@
+{
+  "name": "hiring-challenge",
+  "version": "0.0.1",
+  "dependencies": {
+    "accepts": {
+      "version": "1.3.3",
+      "from": "accepts@>=1.3.3 <1.4.0",
+      "resolved": "./node_shrinkwrap/accepts-1.3.3.tar"
+    },
+    "acorn": {
+      "version": "3.3.0",
+      "from": "acorn@>=3.1.0 <4.0.0",
+      "resolved": "./node_shrinkwrap/acorn-3.3.0.tar"
+    },
+    "acorn-globals": {
+      "version": "3.0.0",
+      "from": "acorn-globals@>=3.0.0 <4.0.0",
+      "resolved": "./node_shrinkwrap/acorn-globals-3.0.0.tar"
+    },
+    "align-text": {
+      "version": "0.1.4",
+      "from": "align-text@>=0.1.3 <0.2.0",
+      "resolved": "./node_shrinkwrap/align-text-0.1.4.tar"
+    },
+    "amdefine": {
+      "version": "1.0.1",
+      "from": "amdefine@>=0.0.4",
+      "resolved": "./node_shrinkwrap/amdefine-1.0.1.tar"
+    },
+    "array-flatten": {
+      "version": "1.1.1",
+      "from": "array-flatten@1.1.1",
+      "resolved": "./node_shrinkwrap/array-flatten-1.1.1.tar"
+    },
+    "asap": {
+      "version": "2.0.5",
+      "from": "asap@>=2.0.3 <2.1.0",
+      "resolved": "./node_shrinkwrap/asap-2.0.5.tar"
+    },
+    "assertion-error": {
+      "version": "1.0.2",
+      "from": "assertion-error@>=1.0.1 <2.0.0",
+      "resolved": "./node_shrinkwrap/assertion-error-1.0.2.tar"
+    },
+    "async": {
+      "version": "0.2.10",
+      "from": "async@>=0.2.6 <0.3.0",
+      "resolved": "./node_shrinkwrap/async-0.2.10.tar"
+    },
+    "balanced-match": {
+      "version": "0.4.2",
+      "from": "balanced-match@>=0.4.1 <0.5.0",
+      "resolved": "./node_shrinkwrap/balanced-match-0.4.2.tar"
+    },
+    "basic-auth": {
+      "version": "1.0.4",
+      "from": "basic-auth@>=1.0.3 <1.1.0",
+      "resolved": "./node_shrinkwrap/basic-auth-1.0.4.tar"
+    },
+    "bcrypt": {
+      "version": "0.8.7",
+      "from": "bcrypt@>=0.8.7 <0.9.0",
+      "resolved": "./node_shrinkwrap/bcrypt-0.8.7.tar"
+    },
+    "bcryptjs": {
+      "version": "2.4.0",
+      "from": "bcryptjs@>=2.4.0 <3.0.0",
+      "resolved": "./node_shrinkwrap/bcryptjs-2.4.0.tar"
+    },
+    "bindings": {
+      "version": "1.2.1",
+      "from": "bindings@1.2.1",
+      "resolved": "./node_shrinkwrap/bindings-1.2.1.tar"
+    },
+    "bluebird": {
+      "version": "2.11.0",
+      "from": "bluebird@>=2.9.34 <3.0.0",
+      "resolved": "./node_shrinkwrap/bluebird-2.11.0.tar"
+    },
+    "body-parser": {
+      "version": "1.15.2",
+      "from": "body-parser@>=1.15.2 <1.16.0",
+      "resolved": "./node_shrinkwrap/body-parser-1.15.2.tar"
+    },
+    "brace-expansion": {
+      "version": "1.1.6",
+      "from": "brace-expansion@>=1.0.0 <2.0.0",
+      "resolved": "./node_shrinkwrap/brace-expansion-1.1.6.tar"
+    },
+    "browser-stdout": {
+      "version": "1.3.0",
+      "from": "browser-stdout@1.3.0",
+      "resolved": "./node_shrinkwrap/browser-stdout-1.3.0.tar"
+    },
+    "bson": {
+      "version": "1.0.4",
+      "from": "bson@>=1.0.4 <1.1.0",
+      "resolved": "./node_shrinkwrap/bson-1.0.4.tar"
+    },
+    "buffer-shims": {
+      "version": "1.0.0",
+      "from": "buffer-shims@>=1.0.0 <2.0.0",
+      "resolved": "./node_shrinkwrap/buffer-shims-1.0.0.tar"
+    },
+    "bytes": {
+      "version": "2.4.0",
+      "from": "bytes@2.4.0",
+      "resolved": "./node_shrinkwrap/bytes-2.4.0.tar"
+    },
+    "camelcase": {
+      "version": "1.2.1",
+      "from": "camelcase@>=1.0.2 <2.0.0",
+      "resolved": "./node_shrinkwrap/camelcase-1.2.1.tar"
+    },
+    "center-align": {
+      "version": "0.1.3",
+      "from": "center-align@>=0.1.1 <0.2.0",
+      "resolved": "./node_shrinkwrap/center-align-0.1.3.tar"
+    },
+    "chai": {
+      "version": "3.5.0",
+      "from": "chai@>=3.5.0 <4.0.0",
+      "resolved": "./node_shrinkwrap/chai-3.5.0.tar"
+    },
+    "character-parser": {
+      "version": "2.2.0",
+      "from": "character-parser@>=2.1.1 <3.0.0",
+      "resolved": "./node_shrinkwrap/character-parser-2.2.0.tar"
+    },
+    "clean-css": {
+      "version": "3.4.24",
+      "from": "clean-css@>=3.3.0 <4.0.0",
+      "resolved": "./node_shrinkwrap/clean-css-3.4.24.tar",
+      "dependencies": {
+        "commander": {
+          "version": "2.8.1",
+          "from": "commander@>=2.8.0 <2.9.0",
+          "resolved": "./node_shrinkwrap/commander-2.8.1.tar"
+        }
+      }
+    },
+    "cliui": {
+      "version": "2.1.0",
+      "from": "cliui@>=2.1.0 <3.0.0",
+      "resolved": "./node_shrinkwrap/cliui-2.1.0.tar"
+    },
+    "commander": {
+      "version": "2.9.0",
+      "from": "commander@>=2.9.0 <3.0.0",
+      "resolved": "./node_shrinkwrap/commander-2.9.0.tar"
+    },
+    "concat-map": {
+      "version": "0.0.1",
+      "from": "concat-map@0.0.1",
+      "resolved": "./node_shrinkwrap/concat-map-0.0.1.tar"
+    },
+    "constantinople": {
+      "version": "3.1.0",
+      "from": "constantinople@>=3.0.1 <4.0.0",
+      "resolved": "./node_shrinkwrap/constantinople-3.1.0.tar"
+    },
+    "content-disposition": {
+      "version": "0.5.1",
+      "from": "content-disposition@0.5.1",
+      "resolved": "./node_shrinkwrap/content-disposition-0.5.1.tar"
+    },
+    "content-type": {
+      "version": "1.0.2",
+      "from": "content-type@>=1.0.2 <1.1.0",
+      "resolved": "./node_shrinkwrap/content-type-1.0.2.tar"
+    },
+    "cookie": {
+      "version": "0.3.1",
+      "from": "cookie@0.3.1",
+      "resolved": "./node_shrinkwrap/cookie-0.3.1.tar"
+    },
+    "cookie-parser": {
+      "version": "1.4.3",
+      "from": "cookie-parser@>=1.4.3 <1.5.0",
+      "resolved": "./node_shrinkwrap/cookie-parser-1.4.3.tar"
+    },
+    "cookie-signature": {
+      "version": "1.0.6",
+      "from": "cookie-signature@1.0.6",
+      "resolved": "./node_shrinkwrap/cookie-signature-1.0.6.tar"
+    },
+    "core-util-is": {
+      "version": "1.0.2",
+      "from": "core-util-is@>=1.0.0 <1.1.0",
+      "resolved": "./node_shrinkwrap/core-util-is-1.0.2.tar"
+    },
+    "debug": {
+      "version": "2.2.0",
+      "from": "debug@>=2.2.0 <2.3.0",
+      "resolved": "./node_shrinkwrap/debug-2.2.0.tar"
+    },
+    "decamelize": {
+      "version": "1.2.0",
+      "from": "decamelize@>=1.0.0 <2.0.0",
+      "resolved": "./node_shrinkwrap/decamelize-1.2.0.tar"
+    },
+    "deep-eql": {
+      "version": "0.1.3",
+      "from": "deep-eql@>=0.1.3 <0.2.0",
+      "resolved": "./node_shrinkwrap/deep-eql-0.1.3.tar",
+      "dependencies": {
+        "type-detect": {
+          "version": "0.1.1",
+          "from": "type-detect@0.1.1",
+          "resolved": "./node_shrinkwrap/type-detect-0.1.1.tar"
+        }
+      }
+    },
+    "depd": {
+      "version": "1.1.0",
+      "from": "depd@>=1.1.0 <1.2.0",
+      "resolved": "./node_shrinkwrap/depd-1.1.0.tar"
+    },
+    "destroy": {
+      "version": "1.0.4",
+      "from": "destroy@>=1.0.4 <1.1.0",
+      "resolved": "./node_shrinkwrap/destroy-1.0.4.tar"
+    },
+    "diff": {
+      "version": "1.4.0",
+      "from": "diff@1.4.0",
+      "resolved": "./node_shrinkwrap/diff-1.4.0.tar"
+    },
+    "doctypes": {
+      "version": "1.1.0",
+      "from": "doctypes@>=1.1.0 <2.0.0",
+      "resolved": "./node_shrinkwrap/doctypes-1.1.0.tar"
+    },
+    "dot-object": {
+      "version": "1.5.4",
+      "from": "dot-object@>=1.5.4 <2.0.0",
+      "resolved": "./node_shrinkwrap/dot-object-1.5.4.tar"
+    },
+    "ee-first": {
+      "version": "1.1.1",
+      "from": "ee-first@1.1.1",
+      "resolved": "./node_shrinkwrap/ee-first-1.1.1.tar"
+    },
+    "encodeurl": {
+      "version": "1.0.1",
+      "from": "encodeurl@>=1.0.1 <1.1.0",
+      "resolved": "./node_shrinkwrap/encodeurl-1.0.1.tar"
+    },
+    "es6-error": {
+      "version": "4.0.1",
+      "from": "es6-error@>=4.0.1 <5.0.0",
+      "resolved": "./node_shrinkwrap/es6-error-4.0.1.tar"
+    },
+    "es6-promise": {
+      "version": "3.2.1",
+      "from": "es6-promise@3.2.1",
+      "resolved": "./node_shrinkwrap/es6-promise-3.2.1.tar"
+    },
+    "es6-shim": {
+      "version": "0.35.3",
+      "from": "es6-shim@>=0.35.2 <0.36.0",
+      "resolved": "./node_shrinkwrap/es6-shim-0.35.3.tar"
+    },
+    "escape-html": {
+      "version": "1.0.3",
+      "from": "escape-html@>=1.0.3 <1.1.0",
+      "resolved": "./node_shrinkwrap/escape-html-1.0.3.tar"
+    },
+    "escape-string-regexp": {
+      "version": "1.0.5",
+      "from": "escape-string-regexp@>=1.0.2 <2.0.0",
+      "resolved": "./node_shrinkwrap/escape-string-regexp-1.0.5.tar"
+    },
+    "etag": {
+      "version": "1.7.0",
+      "from": "etag@>=1.7.0 <1.8.0",
+      "resolved": "./node_shrinkwrap/etag-1.7.0.tar"
+    },
+    "express": {
+      "version": "4.14.0",
+      "from": "express@>=4.14.0 <4.15.0",
+      "resolved": "./node_shrinkwrap/express-4.14.0.tar"
+    },
+    "express-flash-2": {
+      "version": "1.0.1",
+      "from": "express-flash-2@latest",
+      "resolved": "./node_shrinkwrap/express-flash-2-1.0.1.tar"
+    },
+    "finalhandler": {
+      "version": "0.5.0",
+      "from": "finalhandler@0.5.0",
+      "resolved": "./node_shrinkwrap/finalhandler-0.5.0.tar"
+    },
+    "forwarded": {
+      "version": "0.1.0",
+      "from": "forwarded@>=0.1.0 <0.2.0",
+      "resolved": "./node_shrinkwrap/forwarded-0.1.0.tar"
+    },
+    "fresh": {
+      "version": "0.3.0",
+      "from": "fresh@0.3.0",
+      "resolved": "./node_shrinkwrap/fresh-0.3.0.tar"
+    },
+    "fs.realpath": {
+      "version": "1.0.0",
+      "from": "fs.realpath@>=1.0.0 <2.0.0",
+      "resolved": "./node_shrinkwrap/fs.realpath-1.0.0.tar"
+    },
+    "glob": {
+      "version": "7.1.1",
+      "from": "glob@>=7.0.5 <8.0.0",
+      "resolved": "./node_shrinkwrap/glob-7.1.1.tar"
+    },
+    "graceful-readlink": {
+      "version": "1.0.1",
+      "from": "graceful-readlink@>=1.0.0",
+      "resolved": "./node_shrinkwrap/graceful-readlink-1.0.1.tar"
+    },
+    "growl": {
+      "version": "1.9.2",
+      "from": "growl@1.9.2",
+      "resolved": "./node_shrinkwrap/growl-1.9.2.tar"
+    },
+    "has-flag": {
+      "version": "1.0.0",
+      "from": "has-flag@>=1.0.0 <2.0.0",
+      "resolved": "./node_shrinkwrap/has-flag-1.0.0.tar"
+    },
+    "http-errors": {
+      "version": "1.5.1",
+      "from": "http-errors@>=1.5.0 <1.6.0",
+      "resolved": "./node_shrinkwrap/http-errors-1.5.1.tar"
+    },
+    "iconv-lite": {
+      "version": "0.4.13",
+      "from": "iconv-lite@0.4.13",
+      "resolved": "./node_shrinkwrap/iconv-lite-0.4.13.tar"
+    },
+    "inflight": {
+      "version": "1.0.6",
+      "from": "inflight@>=1.0.4 <2.0.0",
+      "resolved": "./node_shrinkwrap/inflight-1.0.6.tar"
+    },
+    "inherits": {
+      "version": "2.0.3",
+      "from": "inherits@2.0.3",
+      "resolved": "./node_shrinkwrap/inherits-2.0.3.tar"
+    },
+    "ipaddr.js": {
+      "version": "1.2.0",
+      "from": "ipaddr.js@1.2.0",
+      "resolved": "./node_shrinkwrap/ipaddr.js-1.2.0.tar"
+    },
+    "is-buffer": {
+      "version": "1.1.4",
+      "from": "is-buffer@>=1.0.2 <2.0.0",
+      "resolved": "./node_shrinkwrap/is-buffer-1.1.4.tar"
+    },
+    "is-expression": {
+      "version": "2.1.0",
+      "from": "is-expression@>=2.0.1 <3.0.0",
+      "resolved": "./node_shrinkwrap/is-expression-2.1.0.tar"
+    },
+    "is-promise": {
+      "version": "2.1.0",
+      "from": "is-promise@>=2.0.0 <3.0.0",
+      "resolved": "./node_shrinkwrap/is-promise-2.1.0.tar"
+    },
+    "is-regex": {
+      "version": "1.0.3",
+      "from": "is-regex@>=1.0.3 <2.0.0",
+      "resolved": "./node_shrinkwrap/is-regex-1.0.3.tar"
+    },
+    "isarray": {
+      "version": "1.0.0",
+      "from": "isarray@>=1.0.0 <1.1.0",
+      "resolved": "./node_shrinkwrap/isarray-1.0.0.tar"
+    },
+    "js-stringify": {
+      "version": "1.0.2",
+      "from": "js-stringify@>=1.0.1 <2.0.0",
+      "resolved": "./node_shrinkwrap/js-stringify-1.0.2.tar"
+    },
+    "json3": {
+      "version": "3.3.2",
+      "from": "json3@3.3.2",
+      "resolved": "./node_shrinkwrap/json3-3.3.2.tar"
+    },
+    "jstransformer": {
+      "version": "1.0.0",
+      "from": "jstransformer@1.0.0",
+      "resolved": "./node_shrinkwrap/jstransformer-1.0.0.tar"
+    },
+    "kind-of": {
+      "version": "3.1.0",
+      "from": "kind-of@>=3.0.2 <4.0.0",
+      "resolved": "./node_shrinkwrap/kind-of-3.1.0.tar"
+    },
+    "lazy-cache": {
+      "version": "1.0.4",
+      "from": "lazy-cache@>=1.0.3 <2.0.0",
+      "resolved": "./node_shrinkwrap/lazy-cache-1.0.4.tar"
+    },
+    "lodash": {
+      "version": "3.10.1",
+      "from": "lodash@>=3.10.1 <4.0.0",
+      "resolved": "./node_shrinkwrap/lodash-3.10.1.tar"
+    },
+    "lodash._baseassign": {
+      "version": "3.2.0",
+      "from": "lodash._baseassign@>=3.0.0 <4.0.0",
+      "resolved": "./node_shrinkwrap/lodash._baseassign-3.2.0.tar"
+    },
+    "lodash._basecopy": {
+      "version": "3.0.1",
+      "from": "lodash._basecopy@>=3.0.0 <4.0.0",
+      "resolved": "./node_shrinkwrap/lodash._basecopy-3.0.1.tar"
+    },
+    "lodash._basecreate": {
+      "version": "3.0.3",
+      "from": "lodash._basecreate@>=3.0.0 <4.0.0",
+      "resolved": "./node_shrinkwrap/lodash._basecreate-3.0.3.tar"
+    },
+    "lodash._getnative": {
+      "version": "3.9.1",
+      "from": "lodash._getnative@>=3.0.0 <4.0.0",
+      "resolved": "./node_shrinkwrap/lodash._getnative-3.9.1.tar"
+    },
+    "lodash._isiterateecall": {
+      "version": "3.0.9",
+      "from": "lodash._isiterateecall@>=3.0.0 <4.0.0",
+      "resolved": "./node_shrinkwrap/lodash._isiterateecall-3.0.9.tar"
+    },
+    "lodash.create": {
+      "version": "3.1.1",
+      "from": "lodash.create@3.1.1",
+      "resolved": "./node_shrinkwrap/lodash.create-3.1.1.tar"
+    },
+    "lodash.isarguments": {
+      "version": "3.1.0",
+      "from": "lodash.isarguments@>=3.0.0 <4.0.0",
+      "resolved": "./node_shrinkwrap/lodash.isarguments-3.1.0.tar"
+    },
+    "lodash.isarray": {
+      "version": "3.0.4",
+      "from": "lodash.isarray@>=3.0.0 <4.0.0",
+      "resolved": "./node_shrinkwrap/lodash.isarray-3.0.4.tar"
+    },
+    "lodash.keys": {
+      "version": "3.1.2",
+      "from": "lodash.keys@>=3.0.0 <4.0.0",
+      "resolved": "./node_shrinkwrap/lodash.keys-3.1.2.tar"
+    },
+    "longest": {
+      "version": "1.0.1",
+      "from": "longest@>=1.0.1 <2.0.0",
+      "resolved": "./node_shrinkwrap/longest-1.0.1.tar"
+    },
+    "media-typer": {
+      "version": "0.3.0",
+      "from": "media-typer@0.3.0",
+      "resolved": "./node_shrinkwrap/media-typer-0.3.0.tar"
+    },
+    "merge-descriptors": {
+      "version": "1.0.1",
+      "from": "merge-descriptors@1.0.1",
+      "resolved": "./node_shrinkwrap/merge-descriptors-1.0.1.tar"
+    },
+    "methods": {
+      "version": "1.1.2",
+      "from": "methods@>=1.1.2 <1.2.0",
+      "resolved": "./node_shrinkwrap/methods-1.1.2.tar"
+    },
+    "mime": {
+      "version": "1.3.4",
+      "from": "mime@1.3.4",
+      "resolved": "./node_shrinkwrap/mime-1.3.4.tar"
+    },
+    "mime-db": {
+      "version": "1.26.0",
+      "from": "mime-db@>=1.26.0 <1.27.0",
+      "resolved": "./node_shrinkwrap/mime-db-1.26.0.tar"
+    },
+    "mime-types": {
+      "version": "2.1.14",
+      "from": "mime-types@>=2.1.13 <2.2.0",
+      "resolved": "./node_shrinkwrap/mime-types-2.1.14.tar"
+    },
+    "minimatch": {
+      "version": "3.0.3",
+      "from": "minimatch@>=3.0.2 <4.0.0",
+      "resolved": "./node_shrinkwrap/minimatch-3.0.3.tar"
+    },
+    "minimist": {
+      "version": "0.0.8",
+      "from": "minimist@0.0.8",
+      "resolved": "./node_shrinkwrap/minimist-0.0.8.tar"
+    },
+    "mkdirp": {
+      "version": "0.5.1",
+      "from": "mkdirp@>=0.5.1 <0.6.0",
+      "resolved": "./node_shrinkwrap/mkdirp-0.5.1.tar"
+    },
+    "mocha": {
+      "version": "3.2.0",
+      "from": "mocha@>=3.2.0 <4.0.0",
+      "resolved": "./node_shrinkwrap/mocha-3.2.0.tar",
+      "dependencies": {
+        "glob": {
+          "version": "7.0.5",
+          "from": "glob@7.0.5",
+          "resolved": "./node_shrinkwrap/glob-7.0.5.tar"
+        },
+        "supports-color": {
+          "version": "3.1.2",
+          "from": "supports-color@3.1.2",
+          "resolved": "./node_shrinkwrap/supports-color-3.1.2.tar"
+        }
+      }
+    },
+    "modli": {
+      "version": "2.1.2",
+      "from": "modli@>=2.1.2 <3.0.0",
+      "resolved": "./node_shrinkwrap/modli-2.1.2.tar"
+    },
+    "modli-mongo": {
+      "version": "1.0.2",
+      "from": "modli-mongo@>=1.0.2 <2.0.0",
+      "resolved": "./node_shrinkwrap/modli-mongo-1.0.2.tar"
+    },
+    "mongodb": {
+      "version": "2.2.21",
+      "from": "mongodb@>=2.2.21 <3.0.0",
+      "resolved": "./node_shrinkwrap/mongodb-2.2.21.tar"
+    },
+    "mongodb-core": {
+      "version": "2.1.6",
+      "from": "mongodb-core@>=2.1.6 <3.0.0",
+      "resolved": "./node_shrinkwrap/mongodb-core-2.1.6.tar"
+    },
+    "morgan": {
+      "version": "1.7.0",
+      "from": "morgan@>=1.7.0 <1.8.0",
+      "resolved": "./node_shrinkwrap/morgan-1.7.0.tar"
+    },
+    "ms": {
+      "version": "0.7.1",
+      "from": "ms@0.7.1",
+      "resolved": "./node_shrinkwrap/ms-0.7.1.tar"
+    },
+    "nan": {
+      "version": "2.3.5",
+      "from": "nan@2.3.5",
+      "resolved": "./node_shrinkwrap/nan-2.3.5.tar"
+    },
+    "negotiator": {
+      "version": "0.6.1",
+      "from": "negotiator@0.6.1",
+      "resolved": "./node_shrinkwrap/negotiator-0.6.1.tar"
+    },
+    "obey": {
+      "version": "1.7.1",
+      "from": "obey@>=1.3.0 <2.0.0",
+      "resolved": "./node_shrinkwrap/obey-1.7.1.tar",
+      "dependencies": {
+        "bluebird": {
+          "version": "3.4.7",
+          "from": "bluebird@>=3.3.4 <4.0.0",
+          "resolved": "./node_shrinkwrap/bluebird-3.4.7.tar"
+        },
+        "lodash": {
+          "version": "4.17.4",
+          "from": "lodash@>=4.6.1 <5.0.0",
+          "resolved": "./node_shrinkwrap/lodash-4.17.4.tar"
+        }
+      }
+    },
+    "object-assign": {
+      "version": "4.1.1",
+      "from": "object-assign@>=4.0.1 <5.0.0",
+      "resolved": "./node_shrinkwrap/object-assign-4.1.1.tar"
+    },
+    "on-finished": {
+      "version": "2.3.0",
+      "from": "on-finished@>=2.3.0 <2.4.0",
+      "resolved": "./node_shrinkwrap/on-finished-2.3.0.tar"
+    },
+    "on-headers": {
+      "version": "1.0.1",
+      "from": "on-headers@>=1.0.1 <1.1.0",
+      "resolved": "./node_shrinkwrap/on-headers-1.0.1.tar"
+    },
+    "once": {
+      "version": "1.4.0",
+      "from": "once@>=1.3.0 <2.0.0",
+      "resolved": "./node_shrinkwrap/once-1.4.0.tar"
+    },
+    "parseurl": {
+      "version": "1.3.1",
+      "from": "parseurl@>=1.3.1 <1.4.0",
+      "resolved": "./node_shrinkwrap/parseurl-1.3.1.tar"
+    },
+    "passport": {
+      "version": "0.3.2",
+      "from": "passport@0.3.2",
+      "resolved": "./node_shrinkwrap/passport-0.3.2.tar"
+    },
+    "passport-local": {
+      "version": "1.0.0",
+      "from": "passport-local@>=1.0.0 <2.0.0",
+      "resolved": "./node_shrinkwrap/passport-local-1.0.0.tar"
+    },
+    "passport-strategy": {
+      "version": "1.0.0",
+      "from": "passport-strategy@>=1.0.0 <2.0.0",
+      "resolved": "./node_shrinkwrap/passport-strategy-1.0.0.tar"
+    },
+    "passwordless-mongostore": {
+      "version": "0.1.4",
+      "from": "passwordless-mongostore@>=0.1.4 <0.2.0",
+      "resolved": "./node_shrinkwrap/passwordless-mongostore-0.1.4.tar"
+    },
+    "passwordless-tokenstore": {
+      "version": "0.0.10",
+      "from": "passwordless-tokenstore@0.0.10",
+      "resolved": "./node_shrinkwrap/passwordless-tokenstore-0.0.10.tar"
+    },
+    "path-is-absolute": {
+      "version": "1.0.1",
+      "from": "path-is-absolute@>=1.0.0 <2.0.0",
+      "resolved": "./node_shrinkwrap/path-is-absolute-1.0.1.tar"
+    },
+    "path-to-regexp": {
+      "version": "0.1.7",
+      "from": "path-to-regexp@0.1.7",
+      "resolved": "./node_shrinkwrap/path-to-regexp-0.1.7.tar"
+    },
+    "pause": {
+      "version": "0.0.1",
+      "from": "pause@0.0.1",
+      "resolved": "./node_shrinkwrap/pause-0.0.1.tar"
+    },
+    "process-nextick-args": {
+      "version": "1.0.7",
+      "from": "process-nextick-args@>=1.0.6 <1.1.0",
+      "resolved": "./node_shrinkwrap/process-nextick-args-1.0.7.tar"
+    },
+    "promise": {
+      "version": "7.1.1",
+      "from": "promise@>=7.0.1 <8.0.0",
+      "resolved": "./node_shrinkwrap/promise-7.1.1.tar"
+    },
+    "proxy-addr": {
+      "version": "1.1.3",
+      "from": "proxy-addr@>=1.1.2 <1.2.0",
+      "resolved": "./node_shrinkwrap/proxy-addr-1.1.3.tar"
+    },
+    "pug": {
+      "version": "2.0.0-beta7",
+      "from": "pug@>=2.0.0-beta6 <2.1.0",
+      "resolved": "./node_shrinkwrap/pug-2.0.0-beta7.tar"
+    },
+    "pug-attrs": {
+      "version": "2.0.2",
+      "from": "pug-attrs@>=2.0.2 <3.0.0",
+      "resolved": "./node_shrinkwrap/pug-attrs-2.0.2.tar"
+    },
+    "pug-code-gen": {
+      "version": "1.1.1",
+      "from": "pug-code-gen@>=1.1.1 <2.0.0",
+      "resolved": "./node_shrinkwrap/pug-code-gen-1.1.1.tar"
+    },
+    "pug-error": {
+      "version": "1.3.2",
+      "from": "pug-error@>=1.3.2 <2.0.0",
+      "resolved": "./node_shrinkwrap/pug-error-1.3.2.tar"
+    },
+    "pug-filters": {
+      "version": "2.0.0",
+      "from": "pug-filters@>=2.0.0 <3.0.0",
+      "resolved": "./node_shrinkwrap/pug-filters-2.0.0.tar"
+    },
+    "pug-lexer": {
+      "version": "2.3.1",
+      "from": "pug-lexer@>=2.3.1 <3.0.0",
+      "resolved": "./node_shrinkwrap/pug-lexer-2.3.1.tar",
+      "dependencies": {
+        "acorn": {
+          "version": "4.0.4",
+          "from": "acorn@>=4.0.2 <4.1.0",
+          "resolved": "./node_shrinkwrap/acorn-4.0.4.tar"
+        },
+        "is-expression": {
+          "version": "3.0.0",
+          "from": "is-expression@>=3.0.0 <4.0.0",
+          "resolved": "./node_shrinkwrap/is-expression-3.0.0.tar"
+        }
+      }
+    },
+    "pug-linker": {
+      "version": "1.0.2",
+      "from": "pug-linker@>=1.0.2 <2.0.0",
+      "resolved": "./node_shrinkwrap/pug-linker-1.0.2.tar"
+    },
+    "pug-load": {
+      "version": "2.0.4",
+      "from": "pug-load@>=2.0.4 <3.0.0",
+      "resolved": "./node_shrinkwrap/pug-load-2.0.4.tar"
+    },
+    "pug-parser": {
+      "version": "2.0.2",
+      "from": "pug-parser@>=2.0.2 <3.0.0",
+      "resolved": "./node_shrinkwrap/pug-parser-2.0.2.tar"
+    },
+    "pug-runtime": {
+      "version": "2.0.3",
+      "from": "pug-runtime@>=2.0.3 <3.0.0",
+      "resolved": "./node_shrinkwrap/pug-runtime-2.0.3.tar"
+    },
+    "pug-strip-comments": {
+      "version": "1.0.2",
+      "from": "pug-strip-comments@>=1.0.2 <2.0.0",
+      "resolved": "./node_shrinkwrap/pug-strip-comments-1.0.2.tar"
+    },
+    "pug-walk": {
+      "version": "1.1.0",
+      "from": "pug-walk@>=1.1.0 <2.0.0",
+      "resolved": "./node_shrinkwrap/pug-walk-1.1.0.tar"
+    },
+    "qs": {
+      "version": "6.2.0",
+      "from": "qs@6.2.0",
+      "resolved": "./node_shrinkwrap/qs-6.2.0.tar"
+    },
+    "range-parser": {
+      "version": "1.2.0",
+      "from": "range-parser@>=1.2.0 <1.3.0",
+      "resolved": "./node_shrinkwrap/range-parser-1.2.0.tar"
+    },
+    "raw-body": {
+      "version": "2.1.7",
+      "from": "raw-body@>=2.1.7 <2.2.0",
+      "resolved": "./node_shrinkwrap/raw-body-2.1.7.tar"
+    },
+    "readable-stream": {
+      "version": "2.1.5",
+      "from": "readable-stream@2.1.5",
+      "resolved": "./node_shrinkwrap/readable-stream-2.1.5.tar"
+    },
+    "repeat-string": {
+      "version": "1.6.1",
+      "from": "repeat-string@>=1.5.2 <2.0.0",
+      "resolved": "./node_shrinkwrap/repeat-string-1.6.1.tar"
+    },
+    "require_optional": {
+      "version": "1.0.0",
+      "from": "require_optional@>=1.0.0 <1.1.0",
+      "resolved": "./node_shrinkwrap/require_optional-1.0.0.tar"
+    },
+    "resolve": {
+      "version": "1.2.0",
+      "from": "resolve@>=1.1.6 <2.0.0",
+      "resolved": "./node_shrinkwrap/resolve-1.2.0.tar"
+    },
+    "resolve-from": {
+      "version": "2.0.0",
+      "from": "resolve-from@>=2.0.0 <3.0.0",
+      "resolved": "./node_shrinkwrap/resolve-from-2.0.0.tar"
+    },
+    "right-align": {
+      "version": "0.1.3",
+      "from": "right-align@>=0.1.1 <0.2.0",
+      "resolved": "./node_shrinkwrap/right-align-0.1.3.tar"
+    },
+    "semver": {
+      "version": "5.3.0",
+      "from": "semver@>=5.1.0 <6.0.0",
+      "resolved": "./node_shrinkwrap/semver-5.3.0.tar"
+    },
+    "send": {
+      "version": "0.14.1",
+      "from": "send@0.14.1",
+      "resolved": "./node_shrinkwrap/send-0.14.1.tar"
+    },
+    "serve-favicon": {
+      "version": "2.3.2",
+      "from": "serve-favicon@>=2.3.0 <2.4.0",
+      "resolved": "./node_shrinkwrap/serve-favicon-2.3.2.tar",
+      "dependencies": {
+        "ms": {
+          "version": "0.7.2",
+          "from": "ms@0.7.2",
+          "resolved": "./node_shrinkwrap/ms-0.7.2.tar"
+        }
+      }
+    },
+    "serve-static": {
+      "version": "1.11.2",
+      "from": "serve-static@>=1.11.1 <1.12.0",
+      "resolved": "./node_shrinkwrap/serve-static-1.11.2.tar",
+      "dependencies": {
+        "ms": {
+          "version": "0.7.2",
+          "from": "ms@0.7.2",
+          "resolved": "./node_shrinkwrap/ms-0.7.2.tar"
+        },
+        "send": {
+          "version": "0.14.2",
+          "from": "send@0.14.2",
+          "resolved": "./node_shrinkwrap/send-0.14.2.tar"
+        }
+      }
+    },
+    "setprototypeof": {
+      "version": "1.0.2",
+      "from": "setprototypeof@1.0.2",
+      "resolved": "./node_shrinkwrap/setprototypeof-1.0.2.tar"
+    },
+    "source-map": {
+      "version": "0.4.4",
+      "from": "source-map@>=0.4.0 <0.5.0",
+      "resolved": "./node_shrinkwrap/source-map-0.4.4.tar"
+    },
+    "statuses": {
+      "version": "1.3.1",
+      "from": "statuses@>=1.3.1 <2.0.0",
+      "resolved": "./node_shrinkwrap/statuses-1.3.1.tar"
+    },
+    "string_decoder": {
+      "version": "0.10.31",
+      "from": "string_decoder@>=0.10.0 <0.11.0",
+      "resolved": "./node_shrinkwrap/string_decoder-0.10.31.tar"
+    },
+    "token-stream": {
+      "version": "0.0.1",
+      "from": "token-stream@0.0.1",
+      "resolved": "./node_shrinkwrap/token-stream-0.0.1.tar"
+    },
+    "type-detect": {
+      "version": "1.0.0",
+      "from": "type-detect@>=1.0.0 <2.0.0",
+      "resolved": "./node_shrinkwrap/type-detect-1.0.0.tar"
+    },
+    "type-is": {
+      "version": "1.6.14",
+      "from": "type-is@>=1.6.13 <1.7.0",
+      "resolved": "./node_shrinkwrap/type-is-1.6.14.tar"
+    },
+    "uglify-js": {
+      "version": "2.7.5",
+      "from": "uglify-js@>=2.6.1 <3.0.0",
+      "resolved": "./node_shrinkwrap/uglify-js-2.7.5.tar",
+      "dependencies": {
+        "source-map": {
+          "version": "0.5.6",
+          "from": "source-map@>=0.5.1 <0.6.0",
+          "resolved": "./node_shrinkwrap/source-map-0.5.6.tar"
+        }
+      }
+    },
+    "uglify-to-browserify": {
+      "version": "1.0.2",
+      "from": "uglify-to-browserify@>=1.0.0 <1.1.0",
+      "resolved": "./node_shrinkwrap/uglify-to-browserify-1.0.2.tar"
+    },
+    "unpipe": {
+      "version": "1.0.0",
+      "from": "unpipe@1.0.0",
+      "resolved": "./node_shrinkwrap/unpipe-1.0.0.tar"
+    },
+    "util-deprecate": {
+      "version": "1.0.2",
+      "from": "util-deprecate@>=1.0.1 <1.1.0",
+      "resolved": "./node_shrinkwrap/util-deprecate-1.0.2.tar"
+    },
+    "utils-merge": {
+      "version": "1.0.0",
+      "from": "utils-merge@1.0.0",
+      "resolved": "./node_shrinkwrap/utils-merge-1.0.0.tar"
+    },
+    "vary": {
+      "version": "1.1.0",
+      "from": "vary@>=1.1.0 <1.2.0",
+      "resolved": "./node_shrinkwrap/vary-1.1.0.tar"
+    },
+    "void-elements": {
+      "version": "2.0.1",
+      "from": "void-elements@>=2.0.1 <3.0.0",
+      "resolved": "./node_shrinkwrap/void-elements-2.0.1.tar"
+    },
+    "window-size": {
+      "version": "0.1.0",
+      "from": "window-size@0.1.0",
+      "resolved": "./node_shrinkwrap/window-size-0.1.0.tar"
+    },
+    "with": {
+      "version": "5.1.1",
+      "from": "with@>=5.0.0 <6.0.0",
+      "resolved": "./node_shrinkwrap/with-5.1.1.tar"
+    },
+    "wordwrap": {
+      "version": "0.0.2",
+      "from": "wordwrap@0.0.2",
+      "resolved": "./node_shrinkwrap/wordwrap-0.0.2.tar"
+    },
+    "wrappy": {
+      "version": "1.0.2",
+      "from": "wrappy@>=1.0.0 <2.0.0",
+      "resolved": "./node_shrinkwrap/wrappy-1.0.2.tar"
+    },
+    "yargs": {
+      "version": "3.10.0",
+      "from": "yargs@>=3.10.0 <3.11.0",
+      "resolved": "./node_shrinkwrap/yargs-3.10.0.tar"
+    }
+  }
+}
