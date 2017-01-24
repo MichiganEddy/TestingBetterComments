@@ -1,0 +1,24 @@
+
+extends layout
+
+block content
+- var _users = users || [];
+.listing-div
+  .listing-heading-div
+    h1.listing-heading Users
+  ul.users-list.w-list-unstyled
+    li.list-headers
+      h3.list-header Username
+      h3.list-header Email
+      h3.list-header First Name
+      h3.list-header Last Name
+      h3.list-header User ID
+  
+    each user in _users
+      li.list-display
+        h4.data-field= user.userName
+        h4.data-field= user.email
+        h4.data-field= user.firstName
+        h4.data-field= user.lastName
+        h4.data-field= user.id
+include footer.pug 
