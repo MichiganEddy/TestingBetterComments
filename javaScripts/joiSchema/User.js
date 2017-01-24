@@ -1,5 +1,5 @@
-let Joi = require("modli").Joi;
-let personSchema = require("./Person.js").personSchema;
+let Joi = require('joi');
+let personSchema = require("./Person.js");
 
 let userSchema = personSchema.keys({
   "userName": Joi.string().alphanum().min(2).max(30).required(),
