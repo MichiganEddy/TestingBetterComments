@@ -6,3 +6,6 @@ let userSchema = personSchema.keys({
   "password": Joi.string().regex(/[\w\d.\-\\\][!@#$%^&*()+'"]{8,60}/).required(),
   "admin": Joi.boolean().default(false)
 });
+
+
+module.exports = personSchema;

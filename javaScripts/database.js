@@ -1,10 +1,17 @@
-const modli = require('modli');
-const mongo = require('mongodb');
-const model = modli.model;
-const adapter = modli.adapter;
-const Joi = modli.Joi;
-const use = modli.use;
+import { model, adapter } from 'modli'
+const mongo = require('modli-mongo');
+const Joi = require('joi');
+const use = require('use');
 const userSchema = require("./joiSchema/User");
+
+let log_module_status = function(){
+    console.log("Status form database.js: Have a model, an adapter, and a database.");
+    
+    console.log(`Model ... type: ${typeof(model)} ... name: ${model.values} ... `);
+    console.log(`Adapter ... type: ${typeof(adapter)} ... attrs: ${adapter.values}`);
+    console.log(`Database: ... type: ${typeof(usersDB)} ... attrs: ${usersDB.values}`);
+}
+
 
 adapter.add({
   name: 'mongoDatabase',
@@ -20,17 +27,21 @@ adapter.add({
 
 model.add({
   "name": "User",
-  "tableName": "testable",
   "version": 1,
-  "collection": "Users",
-  "schema": userSchema
+  "tableName": "Users",
+  "schema": "userSchema"
 });
 
 model.customValidationError = (err) => {
   console.error("Error validating object. " + err.toString());
 }
 
-const usersDB = use("user", "mongoDatabase");
+const usersDB = use("User", "mongoDatabase");
+
+log_module_status();
+
+
 usersDB.createCollection();
 
 module.exports = usersDB;
+

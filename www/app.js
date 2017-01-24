@@ -17,7 +17,7 @@ var bcrypt = require('bcrypt');
 var fs = require('fs');
 
 // DB Implentation not completed.
-var usersDB = require('./javaScripts/database').usersDB;
+var usersDB = require('./javaScripts/database');
 
 // Import the routes files. 
 var users = require('./routes/users');
