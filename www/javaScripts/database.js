@@ -4,10 +4,12 @@ var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol
 
 var _modli = require('modli');
 
+var _User = require('./joiSchema/User.js');
+
 var mongo = require('modli-mongo');
 var Joi = require('joi');
 var use = require('use');
-var userSchema = require("./joiSchema/User");
+
 
 var log_module_status = function log_module_status() {
   console.log("Status form database.js: Have a model, an adapter, and a database.");
@@ -33,14 +35,14 @@ _modli.model.add({
   "name": "User",
   "version": 1,
   "tableName": "Users",
-  "schema": "userSchema"
+  "schema": _User.userSchSch
 });
 
 _modli.model.customValidationError = function (err) {
   console.error("Error validating object. " + err.toString());
 };
 
-var usersDB = use("User", "mongoDatabase");
+var usersDB = use(_modli.model, _modli.adapter);
 
 log_module_status();
 
